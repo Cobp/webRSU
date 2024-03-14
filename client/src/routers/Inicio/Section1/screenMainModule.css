@@ -1,0 +1,83 @@
+#Main{
+    display: flex;
+    max-width: 1100px;
+    height: 650px;
+    padding: 15px;
+}
+#Main img{
+    max-height: 620px;
+    z-index: 0;
+}
+#Main .content_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-right: 30px;
+}
+#Main .content_main .titulo_principal{
+    color: var(--color-secundario);
+    font-size: var(--fz-text-titulo);
+    width: fit-content;
+    z-index: 1;
+}
+#Main .content_main .content_text .primary_content{
+    color: #595959;
+    font-size: var(--fz-text-titulo2);
+    font-weight: 600;
+    line-height: 32px;
+    padding: 15px 0 0 20px;
+}
+#Main .content_main .content_text .secondary_content{
+    padding-top: 15px;
+    font-size: 20px;
+    color: var(--color-secundario);
+    font-weight: 600;
+}
+#Main .main_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    gap: 2rem;
+}
+#Main .main_buttons .container_btn a{
+    padding: 0 15px;
+}
+#Main .main_buttons .container_btn .btn_all_proyects,
+#Main .main_buttons .container_btn .btn_quiz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    border: 2px solid var(--color-secundario);
+    border-radius: 6px;
+    width: fit-content;
+    height: 40px;
+    padding: 12px 30px;
+    gap: .5rem;
+    font-size: var(--fz-text-subtitulo);
+    font-weight: 700;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+#Main .main_buttons .container_btn .btn_quiz{
+    border: 2px solid var(--color-terciario);
+    background-color: var(--color-quinto);
+    color: var(--color-cuarto);
+}
+#Main .main_buttons .container_btn .btn_all_proyects svg,
+#Main .main_buttons .container_btn .btn_quiz svg{
+    width: 1.5rem!important;
+    height: 1.5rem!important;
+    transition: .3s ease-in-out;
+}
+#Main .main_buttons .container_btn .btn_quiz svg path{
+    color: var(--color-cuarto);
+}
+#Main .main_buttons .container_btn:hover .btn_all_proyects svg,
+#Main .main_buttons .container_btn:hover .btn_quiz svg{
+    transform: scale(1.1);
+}

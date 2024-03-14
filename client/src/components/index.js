@@ -1,0 +1,10 @@
+export { default as Navbar} from './navbar/navbar.jsx';
+export { default as Slider} from './sliderCards/slider.jsx';
+export { default as Cards} from './cards/cards.jsx';
+export { default as Card1} from './cards/card1/card1.jsx';
+export { default as Card2} from './cards/card2/card2.jsx';
+export { default as Checkbox} from './inputs/inputs.jsx';
+export { default as Search} from './searchEngine/search.jsx';
+export { default as BarChart1} from './statisticsCharts/barChart1/Chart1.jsx';
+export { default as LineChart1} from './statisticsCharts/lineChart2/Chart2.jsx';
+export { default as PieChart1} from './statisticsCharts/pieChart3/Chart3.jsx';

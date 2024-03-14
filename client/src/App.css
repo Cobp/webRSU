@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --color-principal: #ffffff;
+    --color-secundario: #bb262d;
+    --color-terciario: #cecece;
+    --color-cuarto: #8b8b8b;
+    --color-quinto: #f3f6f4;
+    --color-sexto: #353535;
+    --color-septimo: #e3e4e5;
+
+    --fz-text-big-titulo: 60px;
+    --fz-text-titulo: 36px;
+    --fz-text-titulo2: 18px;
+    --fz-text-titulo3: 16px;
+    --fz-text-subtitulo: 14px;
+    --fz-text-subtitulo2: 12px;
+}
+img{ 
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+body{
+    font-family: "Exo 2", sans-serif;
+    background-color: var(--color-principal);
+}
+.App{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(45deg, rgba(0, 0, 0, .5)0%, rgba(0, 0, 0, .5)100%),
+    url("https://scontent.fasu6-1.fna.fbcdn.net/v/t39.30808-6/286911121_1868267946705477_3929091981199933803_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_ohc=0QzAG6lfg18AX844jVA&_nc_ht=scontent.fasu6-1.fna&oh=00_AfCXY6_UDK6Jk9hkDQE9x0rF1TEKeGH-w5AMm2grQfddqg&oe=65CE85B6");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+.content_app{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
